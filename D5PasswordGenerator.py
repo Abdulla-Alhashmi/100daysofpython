@@ -23,6 +23,7 @@ for i in range(0, nr_numbers):
 for i in range(0, nr_symbols):
     i = random.choice(symbols)
     password.append(i)
+random.shuffle(password)
 print(''.join(password))
     
 
